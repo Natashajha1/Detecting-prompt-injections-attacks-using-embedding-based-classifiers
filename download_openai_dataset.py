@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-folder = "/Users/natashajha/Downloads/21CSB0F06_21CSB0A14_SEMINAR/21CSB0F06_21CSB0A14_CODES/embeddings/data"  # Change to your actual folder
+folder = ""  # Change to your actual folder
 files = sorted([f for f in os.listdir(folder) if f.endswith(".csv")])
 
 df_list = []
