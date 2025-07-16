@@ -37,9 +37,6 @@ This system achieves strong classification performance using embeddings from **O
 │   ├── openai_xgb.csv
 │   ├── openai_logistic_regression.csv
 │   └── graphs/
-│       ├── pca_on_openai.png/pdf
-│       ├── tsne_on_openai.png/pdf
-│       └── umap_on_openai.png/pdf
 ├── 21CSB0F06_21CSB0A14_Report.pdf  # Project report
 ├── 21CSB0F06_21CSB0A14_PPT.pdf     # Seminar presentation
 └── README.md
@@ -76,16 +73,16 @@ Run:
 ```bash
 python download_openai_dataset.py
 ```
-### Step 3: Step 3: Generate Train-Test Split
+### Step 3: Generate Train-Test Split
 ```bash
 python create_test_split.py
 ```
 
-### Step 4:  Step 4: Train Classifiers
+### Step 4:Train Classifiers
 ```bash
 python binary_classification.py
 ```
-### Step 5: Step 5: Visualize Embedding Clusters
+### Step 5: Visualize Embedding Clusters
 ```bash
 python visualization.py
 ```
