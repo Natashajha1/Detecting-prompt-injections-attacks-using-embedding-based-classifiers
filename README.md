@@ -37,8 +37,7 @@ This system achieves strong classification performance using embeddings from **O
 │   ├── openai_xgb.csv
 │   ├── openai_logistic_regression.csv
 │   └── graphs/
-├── 21CSB0F06_21CSB0A14_Report.pdf  # Project report
-├── 21CSB0F06_21CSB0A14_PPT.pdf     # Seminar presentation
+├── Report.pdf 
 └── README.md
 ```
 
